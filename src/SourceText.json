@@ -1,0 +1,21 @@
+{
+    "name": {
+        "firstname": "Khushaal",
+        "lastname": "Nandwani"
+    },
+    "about": "I am a Full Stack Developer and I also like to play volleyball and basketball",
+    "links": {
+        "resume": {
+            "link": "www.google.com",
+            "description": "Resume"
+        },
+        "linkedin": {
+            "link": "www.linkedin.com",
+            "description": "LinkedIn"
+        },
+        "github": {
+            "link": "www.github.com",
+            "description": "GitHub"
+        }
+    }
+}
