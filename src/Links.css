@@ -1,0 +1,21 @@
+.container {
+    width: 250px;
+    height: 300px;
+  }
+  
+  .description {
+    transition: opacity 0.3s ease;
+  }
+  
+  .fade-in {
+    opacity: 1;
+  }
+  
+  .fade-out {
+    opacity: 0;
+  }
+  
+  .links {
+    transition: transform 0.3s ease;
+  }
+  

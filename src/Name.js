@@ -3,7 +3,7 @@ import source from './SourceText.json'
 
 function Name() {
   return (
-    <div>
+    <div className='text-left'>
         <p className='text-6xl font-bold'>{source.name.firstname}</p>
         <p className='text-6xl font-bold'>{source.name.lastname}</p>
     </div>
