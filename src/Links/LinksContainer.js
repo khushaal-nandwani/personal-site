@@ -8,21 +8,18 @@ function LinksContainer() {
 
   const descriptions = {
     education: "education",
-    books: "books"
+    books: "books",
+    projects: "projects",
+    
   };
 
   const handleLinkClick = (key) => {
     setActiveDescription(descriptions[key]);
   };
 
-  const handleClose = () => {
-    setActiveDescription(null);
-  };
-
-  // handle the outsiide clicks
   const handleClickOutside = (ev) => {
     if (containerRef.current && !containerRef.current.contains(ev.target)) {
-      handleClose();
+      setActiveDescription(null);
     }
   }  
 
@@ -34,9 +31,8 @@ function LinksContainer() {
   }
   , []);
 
-
   return (
-    <div ref={containerRef} className="flex">
+    <div ref={containerRef} className="flex text-left h-[300px] w-[400px]">
       {!activeDescription && (
         <Links handleLinkClick={handleLinkClick} />
       )}

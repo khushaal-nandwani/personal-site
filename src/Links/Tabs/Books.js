@@ -1,6 +1,6 @@
 import React from 'react';
 
-const BooksSource = () => {
+const Books = () => {
     return (
         <div className='text-left'>
             <p className='text-2xl font-bold'>The Pragmattic Programmer</p>
@@ -10,4 +10,4 @@ const BooksSource = () => {
     );
 }
 
-export default BooksSource;
+export default Books;

@@ -1,13 +1,15 @@
 import React from 'react';
-import BooksSource from './BooksSource';
-import EducationSource from './EducationSource';
+import Education from './Tabs/Education';
+import Books from './Tabs/Books';
+import ProjectsContainer from './Tabs/ProjectsContainer';
 
 const LinkedDescription = ({ description }) => {
   return (
-    <div className="flex text-left h-[300px] w-[250px]">
+    <div className="flex">
       <div>
-        {description === 'education' && <EducationSource />}
-        {description === 'books' && <BooksSource />}
+        {description === 'education' && <Education />}
+        {description === 'books' && <Books />}
+        {description === 'projects' && <ProjectsContainer />}
       </div>
     </div>
   );

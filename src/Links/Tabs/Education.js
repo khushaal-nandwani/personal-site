@@ -1,0 +1,29 @@
+import React from 'react';
+
+const Education = () => {
+    return (
+        <div className='text-left'>
+            <div className='flex flex-row items-center justify-between'>
+                <a href="https://www.utoronto.ca/" target="_blank" className='text-2xl font-bold hover:text-slate-500'>University of Toronto</a> 
+                <div>2020 - 2025</div>
+            </div>
+            <p className='italic'>Computer Science Major with Minors in Economics and Statistics</p>
+            <p>GPA: 3.6/4.0</p>
+            <p> 
+                <a className="hover:text-slate-500" target="_blank" href="https://artsci.calendar.utoronto.ca/course/csc369h1"> Operating Systems</a>, 
+                <a className="hover:text-slate-500" target="_blank" href="https://artsci.calendar.utoronto.ca/course/csc373h1"> Algorithms</a>,
+                <a className="hover:text-slate-500" target="_blank" href="https://artsci.calendar.utoronto.ca/course/csc207h1"> Software Design</a>,
+                <a className="hover:text-slate-500" target="_blank" href="https://artsci.calendar.utoronto.ca/course/csc301h1"> Software Developement</a>,
+                <a className="hover:text-slate-500" target="_blank" href="https://artsci.calendar.utoronto.ca/course/csc258h1"> Computer Organization</a>,
+                <a className="hover:text-slate-500" target="_blank" href="https://artsci.calendar.utoronto.ca/course/csc343h1"> Databases</a>,
+                <a className="hover:text-slate-500" target="_blank" href="https://artsci.calendar.utoronto.ca/course/csc263h1"> Data Structure and Analysis</a>,
+                <a className="hover:text-slate-500" target="_blank" href="https://artsci.calendar.utoronto.ca/course/csc209h1"> Systems Programming</a>,
+                <a className="hover:text-slate-500" target="_blank" href="https://artsci.calendar.utoronto.ca/course/csc311h1"> Machine Learning</a>,
+                <a className="hover:text-slate-500" target="_blank" href="https://artsci.calendar.utoronto.ca/course/csc384h1"> Artificial Intelligence</a>
+            </p>
+        </div>
+    );
+}
+
+export default Education;
+// TODO: request transcript form
