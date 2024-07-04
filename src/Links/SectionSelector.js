@@ -1,18 +1,18 @@
 import React from 'react';
 import Education from './Tabs/Education';
 import Books from './Tabs/Books';
-import ProjectsContainer from './Tabs/ProjectsContainer';
+import ProjectsList from './Tabs/Projects/ProjectsList';
 
-const LinkedDescription = ({ description }) => {
+const SectionSelector = ({ description }) => {
   return (
     <div className="flex">
       <div>
         {description === 'education' && <Education />}
         {description === 'books' && <Books />}
-        {description === 'projects' && <ProjectsContainer />}
+        {description === 'projects' && <ProjectsList />}
       </div>
     </div>
   );
 };
 
-export default LinkedDescription;
+export default SectionSelector;

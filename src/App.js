@@ -1,7 +1,7 @@
 import Name from './Name';
 import LogoBar from './LogoBar';
 import AboutSection from './AboutSection';
-import LinksContainer from './Links/LinksContainer';
+import SectionContainer from './Links/SectionContainer';
 import './App.css';
 
 
@@ -14,7 +14,7 @@ function App() {
         <div className='my-12'><AboutSection /></div>
       </div>
       <div>
-        <div className='m-12 md:w-auto'><LinksContainer /></div>
+        <div className='m-12 md:w-auto'><SectionContainer /></div>
       </div>
     </div>
   );
