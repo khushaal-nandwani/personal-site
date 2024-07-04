@@ -1,7 +1,7 @@
 import React from 'react';
-import Education from './Tabs/Education';
-import Books from './Tabs/Books';
-import ProjectsList from './Tabs/Projects/ProjectsList';
+import Education from './Education/Education';
+import Books from './Books/Books';
+import ProjectsList from './Projects/ProjectsList';
 
 const SectionSelector = ({ description }) => {
   return (

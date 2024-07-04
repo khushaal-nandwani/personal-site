@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import SectionSelector from "./SectionSelector";
 import SectionList from "./SectionList";
-import ProjectsList from "./Tabs/Projects/ProjectsList";
-import ProjectSelector from "./Tabs/Projects/ProjectSelector";
+import ProjectsList from "./Projects/ProjectsList";
+import ProjectSelector from "./Projects/ProjectSelector";
 
 function SectionContainer() {
   const [activeSections, setActiveSections] = useState([]);
@@ -12,6 +12,7 @@ function SectionContainer() {
     education: "education",
     books: "books",
     projects: "projects",
+    // projects
     proxiee: "proxiee",
     learningEngine: "learningEngine",
     questionSuggester: "questionSuggester",
