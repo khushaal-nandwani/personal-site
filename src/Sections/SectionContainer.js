@@ -3,6 +3,9 @@ import SectionSelector from "./SectionSelector";
 import SectionList from "./SectionList";
 import ProjectsList from "./Projects/ProjectsList";
 import ProjectSelector from "./Projects/ProjectSelector";
+import ExperienceList from "./Experience/ExperienceList";
+import ExperienceSelector from "./Experience/ExperienceSelector"
+import BackButton from "./BackButton/BackButton";
 
 function SectionContainer() {
   const [activeSections, setActiveSections] = useState([]);
@@ -12,6 +15,7 @@ function SectionContainer() {
     education: "education",
     books: "books",
     projects: "projects",
+    experience: "experience",
     // projects
     proxiee: "proxiee",
     learningEngine: "learningEngine",
@@ -20,6 +24,10 @@ function SectionContainer() {
     frogger: "frogger",
     raffleManager: "raffleManager",
     tpTracker: "tpTracker",
+    // experiences
+    ep: "ep",
+    resnet: "resnet",
+    tripta: "tripta",
   };
 
   const handleLinkClick = (key, position) => {
@@ -49,19 +57,27 @@ function SectionContainer() {
   }
   , [activeSections]);
 
-  const showSections = activeSections.length == 0
-  const showProjects = activeSections.length == 1 && activeSections[0] == 'projects'
-  const showSelectedSection = activeSections.length == 1 && activeSections[0] != 'projects'
-  const showSelectedProject = activeSections.length == 2
+  const showSections = activeSections.length === 0
+  const showProjects = activeSections.length === 1 && activeSections[0] === 'projects'
+  const showExperiences = activeSections.length === 1 && activeSections[0] === 'experience'
+  const showSelectedSection = activeSections.length === 1 && activeSections[0] !== 'projects' && activeSections[0] !== 'experience'
+  const showSelectedProject = activeSections.length === 2 && activeSections[0] === 'projects'
+  const showSelectedExperience = activeSections.length === 2 && activeSections[0] === 'experience'
 
   // TODO: there is probably a cleaner way to do
-
   return (
-    <div ref={containerRef} className="flex text-left h-[300px] w-[400px]">
+    <div ref={containerRef} className="flex flex-col text-left h-[400] w-[400px]">
       {showSections  && (<SectionList handleLinkClick={handleLinkClick} />)}
-      {showSelectedSection && (<SectionSelector description={activeSections[0]} />)}
       {showProjects && (<ProjectsList handleLinkClick={handleLinkClick} />)}
+      {showExperiences && (<ExperienceList handleLinkClick={handleLinkClick} />)}
+
+      {showSelectedSection && (<SectionSelector description={activeSections[0]} />)}
       {showSelectedProject && (<ProjectSelector selectedProject={activeSections[1]} />)}
+      {showSelectedExperience && (<ExperienceSelector selectedExperience={activeSections[1]} />)}
+
+      {activeSections.length > 0 && (
+        <BackButton setActiveSections={setActiveSections}/>
+      )}
     </div>
   );
 }

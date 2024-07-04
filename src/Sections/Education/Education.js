@@ -9,11 +9,17 @@ const Education = () => {
             </div>
             <p className='italic'>Computer Science Major with Minors in Economics and Statistics</p>
             <p>GPA: 3.6/4.0</p>
-            <p> 
+            <p className='font-bold'>Awards</p>
+            <div className='ml-4'>
+                <p>International Scholar Award of 100,000 CAD</p>
+                <p>Dean's List Scholar 2021, 2022, 2024</p>
+            </div>
+            <p className='font-bold'>Courses</p>
+            <p className='ml-4'> 
                 <a className="hover:text-slate-500" target="_blank" href="https://artsci.calendar.utoronto.ca/course/csc369h1"> Operating Systems</a>, 
                 <a className="hover:text-slate-500" target="_blank" href="https://artsci.calendar.utoronto.ca/course/csc373h1"> Algorithms</a>,
                 <a className="hover:text-slate-500" target="_blank" href="https://artsci.calendar.utoronto.ca/course/csc207h1"> Software Design</a>,
-                <a className="hover:text-slate-500" target="_blank" href="https://artsci.calendar.utoronto.ca/course/csc301h1"> Software Developement</a>,
+                <a className="hover:text-slate-500" target="_blank" href="https://artsci.calendar.utoronto.ca/course/csc301h1"> Software Engineering</a>,
                 <a className="hover:text-slate-500" target="_blank" href="https://artsci.calendar.utoronto.ca/course/csc258h1"> Computer Organization</a>,
                 <a className="hover:text-slate-500" target="_blank" href="https://artsci.calendar.utoronto.ca/course/csc343h1"> Databases</a>,
                 <a className="hover:text-slate-500" target="_blank" href="https://artsci.calendar.utoronto.ca/course/csc263h1"> Data Structure and Analysis</a>,
@@ -21,6 +27,8 @@ const Education = () => {
                 <a className="hover:text-slate-500" target="_blank" href="https://artsci.calendar.utoronto.ca/course/csc311h1"> Machine Learning</a>,
                 <a className="hover:text-slate-500" target="_blank" href="https://artsci.calendar.utoronto.ca/course/csc384h1"> Artificial Intelligence</a>
             </p>
+
+
         </div>
     );
 }

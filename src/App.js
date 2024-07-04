@@ -5,7 +5,7 @@ import SectionContainer from './Sections/SectionContainer';
 
 function App() {
   return (
-    <div className="App text-white bg-slate-950 flex flex-row justify-center items-center min-h-screen gap-48">
+    <div className="App text-amber-950 bg-yellow-100 flex flex-row justify-center items-center min-h-screen gap-48">
       <div className="flex flex-col w-full md:w-auto">
         <div className='my-12'><Name/></div>
         <div className='my-12'><LogoBar  /></div>
