@@ -2,7 +2,7 @@ import React from 'react';
 
 const ExperiencePoint = () => {
     return (
-        <div className='text-left'>
+        <div className='text-center md:text-left'>
             <div>
                 <p className='text-2xl font-bold'>Software Developer Co Op</p>
                 <p className="">At ExperiencePoint, Toronto, Ontario</p>

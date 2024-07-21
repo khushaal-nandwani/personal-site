@@ -66,7 +66,7 @@ function SectionContainer() {
 
   // TODO: there is probably a cleaner way to do
   return (
-    <div ref={containerRef} className="flex flex-col text-left h-[400] w-[400px]">
+    <div ref={containerRef} className="flex flex-col text-left md:h-[400] md:w-[400px]">
       {showSections  && (<SectionList handleLinkClick={handleLinkClick} />)}
       {showProjects && (<ProjectsList handleLinkClick={handleLinkClick} />)}
       {showExperiences && (<ExperienceList handleLinkClick={handleLinkClick} />)}

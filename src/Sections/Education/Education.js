@@ -2,10 +2,10 @@ import React from 'react';
 
 const Education = () => {
     return (
-        <div className='text-left'>
+        <div className='text-center md:text-left'>
             <div className='flex flex-row items-center justify-between'>
                 <a href="https://www.utoronto.ca/" target="_blank" className='text-2xl font-bold hover:text-slate-500'>University of Toronto</a> 
-                <div>2020 - 2025</div>
+                <div>2020 - 2024</div>
             </div>
             <p className='italic'>Computer Science Major with Minors in Economics and Statistics</p>
             <p>GPA: 3.6/4.0</p>

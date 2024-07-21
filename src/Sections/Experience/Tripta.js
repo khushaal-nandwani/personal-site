@@ -1,6 +1,6 @@
 const Tripta = () => {
     return (
-        <div className='text-left'>
+        <div className='text-center md:text-left'>
             <div>
                 <p className='text-2xl font-bold'>Software Operations</p>
                 <p className="">At Tripta Innovations Pvt Ltd, Surat, India</p>
