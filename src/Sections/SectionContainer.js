@@ -9,6 +9,7 @@ import BackButton from "./BackButton/BackButton";
 
 function SectionContainer() {
   const [activeSections, setActiveSections] = useState([]);
+
   const containerRef = React.useRef(null); // Ref to track the container element
 
   const sections = {

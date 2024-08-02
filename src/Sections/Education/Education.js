@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Education = () => {
+
     return (
         <div className='text-center md:text-left'>
             <div className='flex flex-row items-center justify-between'>

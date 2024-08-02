@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './Tip.css';
 
 function Tip({ message, duration }) {
   const [visible, setVisible] = useState(true);
@@ -11,12 +12,11 @@ function Tip({ message, duration }) {
     return () => clearTimeout(timer);
   }, [duration]);
 
-  if (!visible) {
-    return null;
-  }
 
   return (
-    <div className="fixed top-4 left-1/2 transform -translate-x-1/2 p-2 rounded font-bold">
+    <div className={`fixed top-4 text-xl left-1/2 transform -translate-x-1/2 p-2 rounded font-bold
+    ${visible ? '' : 'button-hide'}
+    `}>
       {message}
     </div>
   );
