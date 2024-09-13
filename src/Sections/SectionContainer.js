@@ -18,6 +18,7 @@ function SectionContainer() {
     projects: "projects",
     experience: "experience",
     // projects
+    tallyToSQL: "tallyToSQL",
     proxiee: "proxiee",
     learningEngine: "learningEngine",
     questionSuggester: "questionSuggester",

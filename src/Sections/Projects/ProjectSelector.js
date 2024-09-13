@@ -6,11 +6,13 @@ import ExperienceData from './ExperienceData';
 import Frogger from './Frogger';
 import RaffleManager from './RaffleManager';
 import TPTracker from './TPTracker';
+import TallyToSQL from './TallyToSQL';
 
 const ProjectsDescription = ({ selectedProject }) => {
     return (
         <div className='flex'>
             <div>
+                {selectedProject === 'tallyToSQL' && <TallyToSQL />}
                 {selectedProject === 'proxiee' && <Proxiee />}
                 {selectedProject === 'learningEngine' && <LearningEngine />}
                 {selectedProject === 'questionSuggester' && <QuestionSuggester />}

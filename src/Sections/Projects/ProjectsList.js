@@ -4,6 +4,7 @@ function ProjectsList({ handleLinkClick }) {
     return (
         <div className="flex flex-col gap-4 ">
           <div className='flex flex-row items-baseline gap-4 hover:scale-125 transition-transform cursor-pointer' onClick={() => handleLinkClick('proxiee', 1)}> <p className="text-xl ">Proxiee</p> <p className="text-sm italic">Python, Flask</p></div>
+          <div className='flex flex-row items-baseline gap-4 hover:scale-125 transition-transform cursor-pointer' onClick={() => handleLinkClick('tallyToSQL', 1)}> <p className="text-xl ">Tally To SQL</p> <p className="text-sm italic">XML, SQL</p></div>
           <div className='flex flex-row items-baseline gap-4 hover:scale-125 transition-transform cursor-pointer' onClick={() => handleLinkClick('learningEngine', 1)}> <p className="text-xl ">Learning Engine</p> <p className="text-sm italic">Python, Flask</p></div>
           <div className='flex flex-row items-baseline gap-4 hover:scale-125 transition-transform cursor-pointer' onClick={() => handleLinkClick('questionSuggester', 1)}> <p className="text-xl ">Question Suggestor</p> <p className="text-sm italic">Python, MatPlotLib, SciPy</p></div>
           <div className='flex flex-row items-baseline gap-4 hover:scale-125 transition-transform cursor-pointer' onClick={() => handleLinkClick('experienceData', 1)}> <p className="text-xl ">Experience Data</p> <p className="text-sm italic">Python, Flask</p></div>
