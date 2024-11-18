@@ -1,3 +1,3 @@
 # Khushaal Nandwani's Personal Site
 
-Kuch aur likh de. phir e ek baar
+The personal site is live on http://www.khushaal.com
