@@ -8,16 +8,18 @@ import ExperienceSelector from "./Experience/ExperienceSelector"
 import BackButton from "./BackButton/BackButton";
 
 function SectionContainer() {
-  const [activeSections, setActiveSections] = useState([]);
+const [activeSections, setActiveSections] = useState([]);
 
   const containerRef = React.useRef(null); // Ref to track the container element
 
   const sections = {
     education: "education",
     books: "books",
+    shows: "shows",
     projects: "projects",
     experience: "experience",
     // projects
+    noteme: "noteme",
     tallyToSQL: "tallyToSQL",
     proxiee: "proxiee",
     learningEngine: "learningEngine",
@@ -27,6 +29,7 @@ function SectionContainer() {
     raffleManager: "raffleManager",
     tpTracker: "tpTracker",
     // experiences
+    apperture: "apperture",
     ep: "ep",
     resnet: "resnet",
     tripta: "tripta",

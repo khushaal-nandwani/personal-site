@@ -8,7 +8,7 @@ const GithubLink = ({ link }) => {
   return (
     <div>
       <FaGithub
-        className="h-8 w-8 hover:scale-125 transition-transform cursor-pointer"
+        className="h-8 w-8 md:hover:scale-125 md:transition-transform cursor-pointer"
         style={{ fill: "yellow" }}
         onClick={handleGithubClick}
       ></FaGithub>

@@ -14,7 +14,7 @@ function Tip({ message, duration }) {
 
 
   return (
-    <div className={`fixed top-4 text-sm md:text-xl left-1/2 transform -translate-x-1/2 p-2 rounded font-bold
+    <div className={`fixed top-4 text-amber-400 text-sm md:text-xl left-1/2 transform -translate-x-1/2 p-2 rounded font-bold
     ${visible ? '' : 'button-hide'}
     `}>
       {message}

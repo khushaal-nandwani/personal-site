@@ -6,7 +6,7 @@ const logos = [
   {
     name: "Email",
     component: FaEnvelope,
-    link: "mailto:jordancampbell2121@gmail.com",
+    link: "mailto:khushaal.nandwani@mail.utoronto.ca",
   },
   {
     name: "LinkedIn",

@@ -1,10 +1,10 @@
 const Tripta = () => {
     return (
-        <div className='text-center md:text-left'>
+        <div>
             <div>
-                <p className='text-2xl font-bold'>Software Operations</p>
+                <p className='text-2xl font-bold'>DevOps and Software Developer Intern</p>
                 <p className="">At Tripta Innovations Pvt Ltd, Surat, India</p>
-                <div>May 2024 - Present</div>
+                <div>May 2024 - August 2024</div>
             </div>
         <br></br>
             <li>Increased the automation testing speed of the company's automation testing using AutoIt by over 7 times. Created the framework, design and implementation of writing tests for the testing team.</li>

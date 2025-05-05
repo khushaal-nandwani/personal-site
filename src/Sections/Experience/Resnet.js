@@ -1,6 +1,6 @@
 const Resnet = () => {
     return (
-        <div className='text-center md:text-left'>
+        <div className=''>
             <div>
                 <p className='text-2xl font-bold'>Resnet IT Assistant</p>
                 <p className="">At University of Toronto</p>
