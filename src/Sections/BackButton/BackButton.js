@@ -17,7 +17,7 @@ function BackButton({ setActiveSections }) {
   }
   
   return (
-    <div className={`mt-8 text-amber-400 font-bold text-sm text-center ${hide ? 'button-hide' : ''}`} onClick={handleBackClick}>
+    <div className={`mt-8 text-slate-400 font-bold text-sm text-center ${hide ? 'button-hide' : ''}`} onClick={handleBackClick}>
       Click outside the active area to go back!
     </div>
   );

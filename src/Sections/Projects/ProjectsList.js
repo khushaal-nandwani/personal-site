@@ -1,6 +1,6 @@
 import React from 'react';
 
-const commonClass = "flex flex-row items-baseline gap-4 md:hover:scale-125 md:transition-transform cursor-pointer"
+const commonClass = "flex flex-row items-baseline gap-4 md:hover:scale-110 md:transition-transform cursor-pointer"
 
 function ProjectsList({ handleLinkClick }) {
     return (

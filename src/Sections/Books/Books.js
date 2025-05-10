@@ -4,7 +4,8 @@ const Books = () => {
     const books = [
         { title: 'The Pragmatic Programmer', authors: 'Andy Hunt and Dave Thomas' },
         { title: 'Jaws: The Story of a Hidden Epidemic', authors: 'Sandra Kahn and Paul R. Ehrlich' },
-        { title: "The Murder of Roger Ackroyd", authors: "Agatha Christie"}
+        { title: "The Murder of Roger Ackroyd", authors: "Agatha Christie"},
+        { title: "Connected: The Surprising Power of Our Social Networks", authors: "James Fowler and Nicholas A."}
         // Add more books here
     ];
 
